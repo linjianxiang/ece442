@@ -63,7 +63,10 @@ RGB_4= ycbcr2rgb(Im_Ycbcr_4);%save result to RGB_4
 
 RGB_8= ycbcr2rgb(Im_Ycbcr_8);%save result to RGB_8
 
-
+%image write
+imwrite(RGB_2, 'pepper_sampling_2.png');
+imwrite(RGB_4, 'pepper_sampling_4.png');
+imwrite(RGB_8, 'pepper_sampling_8.png');
 % Display the result
 figure()
 subplot(2,2,1),imshow(Im),title('Original Image');
