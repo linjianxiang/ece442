@@ -1,0 +1,2 @@
+Use 'fx', 1.mpg, 5,8.5,8.5
+This can satisfy the requirements
